@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
     this.geoJsonObject = GEOJSON;
     console.log(this.geoJsonObject); //stampo l'oggetto geoJsonObject sulla console
     //Provo a visualizzare le coordinate della prima features
-    console.log(this.geoJsonObject.features[0].geometry.coordinates);
+    console.log(this.lng,this.lat);
   }
 
 styleFunc = (feature) =>{
